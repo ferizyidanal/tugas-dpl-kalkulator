@@ -12,8 +12,8 @@ console.log(hasil)
 }
 
 if(fungsi == 2 ){
-    var angka1 = readline.question("MASUKAN NOMOR= ")
-    var angka2 = readline.question("MASUKAN NOMOR= ") 
+    var angka1 = readline.questionInt("MASUKAN NOMOR= ")
+    var angka2 = readline.questionInt("MASUKAN NOMOR= ") 
     var a1 = angka1;
     var a2 = angka2;
     var hasil = Number(a1) - Number(a2);
@@ -30,8 +30,8 @@ if(fungsi == 3 ){
         }
 
 if(fungsi == 4 ){
-            var angka1 = readline.question("MASUKAN NOMOR= ")
-            var angka2 = readline.question("MASUKAN NOMOR= ") 
+            var angka1 = readline.questionInt("MASUKAN NOMOR= ")
+            var angka2 = readline.questionInt("MASUKAN NOMOR= ") 
             var a1 = angka1;
             var a2 = angka2;
             var hasil = Number(a1) / Number(a2);
