@@ -19,3 +19,12 @@ if(fungsi == 2 ){
     var hasil = Number(a1) - Number(a2);
     console.log(hasil)
     }
+
+if(fungsi == 3 ){
+        var angka1 = readline.question("MASUKAN NOMOR= ")
+        var angka2 = readline.question("MASUKAN NOMOR= ") 
+        var a1 = angka1;
+        var a2 = angka2;
+        var hasil = Number(a1) * Number(a2);
+        console.log(hasil)
+        }
